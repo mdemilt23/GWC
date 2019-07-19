@@ -8,7 +8,10 @@ maxFails=7
 correct=0
 tries=0
 
-
+#makes a corresponding list of underscores for each letter in the input
+for i in range(x):
+    word.extend("_")
+    
 #little intro, just lets the player know how many chances they have
 print("You have "+str(maxFails)+" attempts to figure out this word")
 print("Good Luck!\n")
